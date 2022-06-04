@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title><%= title %></title>
+    <link rel="stylesheet" href="/stylesheets/style.css" />
+</head>
+<body>
+    <h1>Add to the message board below</h1>
+    <form method="POST" action="/new">
+       <p>Name:</p>
+       <input type="text" name="name" /> 
+        <p>Message:</p>
+        <input type="text" name="message" />
+        <button class="type submit">Submit</button>
+    </form>
+</body>
+</html>
